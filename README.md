@@ -44,4 +44,3 @@ Should you have any questions, propositions, complaints, or just want to keep in
 touch, you can reach me at [Telegram](https://t.me/hatedabamboo),
 [GitHub](https://github.com/hatedabamboo) or
 [LinkedIn](https://www.linkedin.com/in/hatedabamboo/).
-
