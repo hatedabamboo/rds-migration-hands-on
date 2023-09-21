@@ -45,9 +45,10 @@ This is crucial for the migration!
 
       Important! Don't disable SSL on a production workload!
 
-### For the target database:
+### For the target database
 
 For the target endpoint:
+
 - Endpoint identifier: "*MyRDSDatabase*" (or something meaningful).
 - Select "**RDS DB instance**" and choose your RDS instance from [**Lesson 03**](../03-prepare-rds/Instructions.md); all the necessary fields except for the password should fill automatically.
 
