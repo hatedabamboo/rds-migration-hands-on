@@ -5,7 +5,7 @@
 We have our instance set up; now it's time to configure the database and import the data. For convenient usage, let's change the PostgreSQL password:
 
 ```bash
-sudo -i -u postgres psql "ALTER USER postgres PASSWORD '<your-new-password>'"
+sudo -i -u postgres psql "ALTER USER postgres WITH PASSWORD '<your-new-password>'"
 ```
 
 This command will allow you to connect to the database right after logging into the instance using `psql -U postgres -W` and entering the new password when prompted.

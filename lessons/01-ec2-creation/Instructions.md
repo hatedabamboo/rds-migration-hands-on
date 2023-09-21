@@ -19,6 +19,7 @@ To ensure proper functionality of our instance and its hosted database, we need 
 VPC and subnet can be left as default values.
 
 Set "**Auto-assign public IP**" to "**Enable**". Then, create a new security group with the following rules:
+
 - SSH / TCP / 22 / Anywhere / 0.0.0.0/0 / SSH access
 - PostgreSQL / TCP / 5432 / Anywhere / 0.0.0.0/0 / Database access
 
@@ -31,4 +32,4 @@ For our database, 8 GiB of gp2 storage should be sufficient.
 
 Finally, we need to configure our database itself.
 
-You can choose one of two methods: either install it manually or use "**User data**" during instance creation to prepare it for you during the setup process. In either case, you can use the script `user-data.sh`, located in the resources directory.
+You can choose one of two methods: either install it manually or use "**User data**" during instance creation to prepare it for you during the setup process. In either case, you can use the script [`user-data.sh`](./resources/user-data.sh), located in the resources directory.

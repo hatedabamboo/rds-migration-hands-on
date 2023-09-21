@@ -36,6 +36,11 @@ Each lesson takes several hours to complete. While the tasks themselves are rath
 straightforward, some elements may go wrong and will require intensive
 troubleshooting.
 
+    Important! Some of the resources in AWS are available in one regions and not
+    available in the others. For example, t2.micro instance may be unavailable in
+    favour of t3.micro, as well as gp2 in favour of gp3. In order to keep costs to
+    minimum, look for "Free tier" label next to resources available for free.
+
 ## Credits
 
 This hands-on lab has been prepared and tested by @hatedabamboo.
