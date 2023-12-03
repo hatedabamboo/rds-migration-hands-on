@@ -33,3 +33,9 @@ For our database, 8 GiB of gp2 storage should be sufficient.
 Finally, we need to configure our database itself.
 
 You can choose one of two methods: either install it manually or use "**User data**" during instance creation to prepare it for you during the setup process. In either case, you can use the script [`user-data.sh`](./resources/user-data.sh), located in the resources directory.
+
+    Notice, that `user-data.sh` script contains PGSQLV variable. It was added due to the fact,
+    that DMS doesn't support (as of December 2023) 16 version of PostgreSQL database.
+    When the latest version would be available for usage in the DMS, you can change this variable
+    at your convenience.
+
